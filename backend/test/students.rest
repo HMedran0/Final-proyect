@@ -1,0 +1,14 @@
+//Create student request
+POST http://localhost:4000/student/
+Content-Type:
+{
+    "name": "Pepito Perez",
+    "age": "16",
+    "grade": "6",
+    "email": "pepitop@gmail.com"
+}
+
+###
+//Read student request
+GET http://localhost:4000/
+
