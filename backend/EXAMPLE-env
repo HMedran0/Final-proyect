@@ -1,3 +1,7 @@
 DB_URI=
 PORT=
+<<<<<<< HEAD
 URI_ATLAS=
+=======
+URI_ATLAS=
+>>>>>>> 17d075ecb5fa2fcf9e824e00389b47523f7c8f50
