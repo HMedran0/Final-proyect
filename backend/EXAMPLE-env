@@ -1,4 +1,3 @@
 DB_URI=
 PORT=
-URI_ATLAS='mongodb+srv://Hmedran0:Helumesa1507@cluster0.xwbguhf.mongodb.net/'
-'mongodb://localhost:27017/Hmedran0'
+URI_ATLAS=
