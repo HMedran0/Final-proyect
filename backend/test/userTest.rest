@@ -1,0 +1,63 @@
+//Create student request
+POST http://localhost:4000/user/
+Content-Type: application/json
+{
+    "name": "Pepito",
+    "last_name": "Pérez",
+    "age": 16,
+    "company": "UN",
+    "email": "pepitop@gmail.com",
+    "password": "32145"
+}
+
+###
+//Read all students request
+GET http://localhost:4000/user
+
+###
+//Read one student
+GET http://localhost:4000/user/65308b65465537ff05d2b570
+
+###
+//Update student
+PUT http://localhost:4000/user/65308b65465537ff05d2b570
+Content-Type: application/json
+{
+    "name": "Pepito",
+    "last_name": "Pérez",
+    "age": 16,
+    "company": "UN",
+    "email": "pepitop@gmail.com",
+    "password": "123456",
+
+}
+
+###
+//Delete student
+DELETE http://localhost:4000/user/:id
+
+###
+POST http://localhost:4000/user/register
+Content-Type:
+
+{
+    "name": "Pepito",
+    "last_name": "Pérez",
+    "age": 16,
+    "company": "UN",
+    "email": "pepitop@gmail.com",
+    "password": "123456",
+
+}
+
+###
+POST http://localhost:4000/user/login
+Content-Type:
+
+{
+    "email": "anasierra@gmail.com",
+    "password": "holamund0"
+}
+
+
+

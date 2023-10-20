@@ -1,0 +1,35 @@
+form {
+    border-radius: 1rem;
+    box-sizing: border-box;
+    box-shadow: rgba(128, 128, 128, 0.173) 4px 2px 7px 5px;
+    padding: 1rem;
+    position: absolute;
+    left: 45%;
+    top: 10%;
+    width: 35%;
+    background-color: #71918f;
+}
+
+button{
+    background-color: #92A055;
+    border: 0;
+    padding: 3px 10px 3px 10px ;
+}
+
+button:hover{
+    background-color: #578684;
+}
+
+form h1, label{
+    color: #ffffff;
+}
+
+input {
+    border-radius: 10px;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}

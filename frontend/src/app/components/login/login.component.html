@@ -1,0 +1,30 @@
+<!--navigation bar-->
+<app-top></app-top>
+<!--navigation bar-->
+
+<form (ngSubmit)="login()" #loginForm="ngForm">
+    <h1 class="f text-center">Iniciar sesión</h1>
+
+    <div class="mb-3">
+        <label for="email" class="form-label fw-bolder">usuario</label>
+        <input type="email" class="form-control" id="email" name="email" [(ngModel)]="student.email"
+            aria-describedby="emailHelp" id="email" placeholder="Ingrese su correo electrónico">
+    </div>
+
+    <div class="mb-3">
+        <label for="password" class="form-label fw-bolder">Contraseña</label>
+        <input type="password" class="form-control" id="password" name="password" [(ngModel)]="student.password"
+            placeholder="Ingrese su contraseña">
+    </div>
+    <button type="submit" class="btn btn-primary">Iniciar sesión</button>
+</form>
+
+<!--background image-->
+<section>
+    <!-- Intro -->
+    <div alt="background-image" id="intro" class="vh-100" style="
+        background-image: url('../../../assets/bg-i.jpg')">
+    </div>
+    <!-- Intro -->
+</section>
+<!--background image-->
